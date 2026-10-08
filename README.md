@@ -3,7 +3,7 @@
 
 **Dwight Kahng** — Independent Researcher  
 **Paper:** *A 15-Qubit Recoherence Protocol for Benchmarking Mid-Circuit Measurements and Noise Models* (v50, October 7, 2026). Versions through v49 were titled *A 15-Qubit Decoherence-Reversal Protocol for Benchmarking Mid-Circuit Measurements and Environmental Imprinting*.  
-**Zenodo:** [10.5281/zenodo.19105460](https://doi.org/10.5281/zenodo.19105460)  
+**Zenodo (all versions):** [10.5281/zenodo.19105459](https://doi.org/10.5281/zenodo.19105459)  
 **OSF:** [osf.io/9dnm8](https://osf.io/9dnm8)  
 **arXiv:** [link to be added]
 
@@ -64,11 +64,11 @@ Only the first two rows describe the production circuit; the other two show sens
 
 | File | Description |
 |------|-------------|
-| `15-Qubit Exact Simulation Protocol (v50).pdf` | Current manuscript (earlier versions, including v49, are archived in the [Zenodo version history](https://doi.org/10.5281/zenodo.19105460)) |
+| `15-Qubit Exact Simulation Protocol (v50).pdf` | Current manuscript (earlier versions, including v49, are archived in the [Zenodo version history](https://doi.org/10.5281/zenodo.19105459)) |
 | `A 15-Qubit Exact-Simulation Protocol (v48) - Results.pdf` | Raw output log of the 400-shot emulator run |
 | `local_simulation_(v48_master).py`, `Local_Simulation_(v48_Master).ipynb` | Local Aer simulation: computes F_max, runs the Table 2 sweep, and re-applies the decision rule to the observed emulator result |
 | `azure_quantinuum_submission_(v48_public).py`, `Azure_Quantinuum_Submission_(v48_Public).ipynb` | Azure Quantum submission: runs the sweep, submits the 400-shot job to the H2-1E emulator via OpenQASM 2.0, and analyzes the result |
-| `15-Qubit Recoherence Protocol Infographic (v50).png` | One-page visual summary (replaces the earlier "Decoherence-Reversal Protocol" infographic) |
+| `15-Qubit Loschmidt-Echo Benchmark Infographic (v50).png` | One-page visual summary (replaces the earlier "Decoherence-Reversal Protocol" infographic) |
 
 ### Note on the v48 code
 
@@ -151,7 +151,7 @@ If you use this protocol or code, please cite:
 ```
 Kahng, D. (2026). A 15-Qubit Recoherence Protocol for Benchmarking
 Mid-Circuit Measurements and Noise Models (v50).
-Zenodo. https://doi.org/10.5281/zenodo.19105460
+Zenodo. https://doi.org/10.5281/zenodo.19105459
 ```
 
 ---
